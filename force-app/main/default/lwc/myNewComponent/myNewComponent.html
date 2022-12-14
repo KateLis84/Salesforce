@@ -1,11 +1,9 @@
 <template>
-    <lightning-card>
-        <lightning-record-form
-        object-api-name={objectApiName}
-        fields={fields}
-        onsuccess={handleSuccess}
-        >
-
-        </lightning-record-form>
-    </lightning-card>
+    <div style="height: 300px;">
+        <lightning-datatable
+                key-field="id"
+                data={dataEnrollments.data}
+                columns={columns}>
+        </lightning-datatable>
+    </div>
 </template>

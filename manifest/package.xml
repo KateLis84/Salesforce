@@ -26,6 +26,7 @@
 	</types>
 	<types>
 		<members>New_Custom_sfdx__c</members>
+		<members>Student__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
